@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:I[1402,["356","static/chunks/356-dd586550a3a02238.js","619","static/chunks/619-9168df9c2a29b74b.js","177","static/chunks/app/layout-7bc8f0f59b2fd025.js"],""]
+3:I[7394,["356","static/chunks/356-dd586550a3a02238.js","619","static/chunks/619-9168df9c2a29b74b.js","177","static/chunks/app/layout-7bc8f0f59b2fd025.js"],"Header"]
+4:I[9766,[],""]
+5:I[8924,[],""]
+6:I[1356,["356","static/chunks/356-dd586550a3a02238.js","619","static/chunks/619-9168df9c2a29b74b.js","824","static/chunks/app/interview/%5Bid%5D/page-b1da5276b88b204f.js"],"Image"]
+7:I[2619,["356","static/chunks/356-dd586550a3a02238.js","619","static/chunks/619-9168df9c2a29b74b.js","824","static/chunks/app/interview/%5Bid%5D/page-b1da5276b88b204f.js"],""]
+11:I[7150,[],""]
+:HL["/seconne-hp-v2-preview/_next/static/css/2cfe927dcd0945c5.css","style"]
+0:{"P":null,"b":"xOq_URZPJlF2_h51bLgQu","p":"/seconne-hp-v2-preview","c":["","interview","vlcseclab"],"i":false,"f":[[["",{"children":["interview",{"children":[["id","vlcseclab","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/seconne-hp-v2-preview/_next/static/css/2cfe927dcd0945c5.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"ja","children":["$","body",null,{"children":[["$","$L2",null,{"src":"https://www.googletagmanager.com/gtag/js?id=G-WVPMRH50EC","strategy":"afterInteractive"}],["$","$L2",null,{"id":"ga4","strategy":"afterInteractive","children":"\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-WVPMRH50EC');\n          "}],["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"bg-navy-950 pb-16 text-gray-300 md:pb-0","children":["$","div",null,{"className":"container-wide mx-auto px-5 py-16 md:px-8","children":[["$","div",null,{"className":"grid gap-12 md:grid-cols-3","children":[["$","div",null,{"children":[["$","$L6",null,{"src":"/seconne-logo.svg","alt":"セコネ","width":120,"height":30,"className":"mb-4 h-7 w-auto brightness-0 invert"}],["$","p",null,{"className":"text-sm leading-relaxed text-gray-400","children":["株式会社セコネ",["$","br",null,{}],"東京都中央区日本橋室町1-11-12",["$","br",null,{}],"日本橋水野ビル7階"]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"mb-4 text-sm font-semibold text-white","children":"ナビゲーション"}],["$","ul",null,{"className":"space-y-2","children":[["$","li","/#service",{"children":["$","$L7",null,{"href":"/#service","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"サービス"}]}],["$","li","/advantage",{"children":["$","$L7",null,{"href":"/advantage","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"セコネの強み"}]}],["$","li","/interview",{"children":["$","$L7",null,{"href":"/interview","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"導入事例"}]}],["$","li","/company",{"children":["$","$L7",null,{"href":"/company","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"会社情報"}]}],["$","li","/privacy",{"children":["$","$L7",null,{"href":"/privacy","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"プライバシーポリシー"}]}],["$","li","/terms",{"children":["$","$L7",null,{"href":"/terms","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"利用規約"}]}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"className":"mb-4 text-sm font-semibold text-white","children":"関連リンク"}],["$","ul",null,{"className":"mb-6 space-y-2","children":[["$","li","https://zenn.dev/shotakada",{"children":["$","a",null,{"href":"https://zenn.dev/shotakada","target":"_blank","rel":"noopener noreferrer","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"Zenn（技術記事）"}]}],["$","li","https://seconne-career.com/lp/",{"children":["$","a",null,{"href":"https://seconne-career.com/lp/","target":"_blank","rel":"noopener noreferrer","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"セコネキャリア（転職相談）"}]}],"$L8","$L9","$La"]}]]}]]}],"$Lb"]}]}],"$Lc"]}]}]]}],{"children":["interview","$Ld",{"children":[["id","vlcseclab","d"],"$Le",{"children":["__PAGE__","$Lf",{},null,false]},null,false]},null,false]},null,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"s":false,"S":true}
+12:I[5287,["356","static/chunks/356-dd586550a3a02238.js","619","static/chunks/619-9168df9c2a29b74b.js","177","static/chunks/app/layout-7bc8f0f59b2fd025.js"],"FloatingCTA"]
+14:I[4431,[],"OutletBoundary"]
+16:I[5278,[],"AsyncMetadataOutlet"]
+18:I[4431,[],"ViewportBoundary"]
+1a:I[4431,[],"MetadataBoundary"]
+1b:"$Sreact.suspense"
+8:["$","li","https://www.udemy.com/course/it-tenshoku/?referralCode=EE7103487C8B5D304C70",{"children":["$","a",null,{"href":"https://www.udemy.com/course/it-tenshoku/?referralCode=EE7103487C8B5D304C70","target":"_blank","rel":"noopener noreferrer","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"Udemy（教育コンテンツ）"}]}]
+9:["$","li","https://www.youtube.com/@tenshokutakada",{"children":["$","a",null,{"href":"https://www.youtube.com/@tenshokutakada","target":"_blank","rel":"noopener noreferrer","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"YouTube"}]}]
+a:["$","li","https://x.com/tenshokutakada",{"children":["$","a",null,{"href":"https://x.com/tenshokutakada","target":"_blank","rel":"noopener noreferrer","className":"text-sm text-gray-400 transition-colors hover:text-white","children":"X"}]}]
+b:["$","div",null,{"className":"mt-12 border-t border-gray-800 pt-8","children":[["$","p",null,{"className":"mb-4 text-center text-sm text-gray-400","children":["転職相談はこちら →"," ",["$","a",null,{"href":"https://seconne-career.com/lp/","target":"_blank","rel":"noopener noreferrer","className":"text-gray-300 underline underline-offset-2 hover:text-white","children":"セコネキャリア"}]]}],["$","p",null,{"className":"text-center text-xs text-gray-500","children":["© ",2026," 株式会社セコネ All Rights Reserved."]}]]}]
+c:["$","$L12",null,{}]
+d:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+e:["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+f:["$","$1","c",{"children":["$L13",null,["$","$L14",null,{"children":["$L15",["$","$L16",null,{"promise":"$@17"}]]}]]}]
+10:["$","$1","h",{"children":[null,[["$","$L18",null,{"children":"$L19"}],null],["$","$L1a",null,{"children":["$","div",null,{"hidden":true,"children":["$","$1b",null,{"fallback":null,"children":"$L1c"}]}]}]]}]
+1d:T4a1,max-w-none [&_blockquote]:my-8 [&_blockquote]:border-l-4 [&_blockquote]:border-gray-200 [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-gray-500 [&_em]:italic [&_figure]:mx-auto [&_figure]:my-10 [&_figure]:max-w-full [&_figure]:text-center [&_figcaption]:mt-4 [&_figcaption]:text-sm [&_figcaption]:text-gray-600 [&_figure_img]:mb-0 [&_figure_img]:w-full [&_h2]:mb-6 [&_h2]:mt-16 [&_h2]:border-l-[6px] [&_h2]:border-blue-500 [&_h2]:pl-4 [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:text-blue-800 md:[&_h2]:text-3xl [&_h3]:mb-4 [&_h3]:mt-12 [&_h3]:text-xl [&_h3]:font-medium [&_h3]:text-gray-800 [&_h4]:mb-3 [&_h4]:mt-10 [&_h4]:border-b [&_h4]:border-gray-300 [&_h4]:pb-2 [&_h4]:text-lg [&_h4]:font-semibold [&_h4]:text-gray-900 [&_img]:mx-auto [&_img]:my-8 [&_img]:block [&_img]:h-auto [&_img]:max-w-full [&_img]:rounded-lg [&_img]:shadow-md [&_ol]:mb-6 [&_ol]:pl-6 [&_p]:mb-6 [&_p]:text-base [&_p]:leading-[1.9] [&_p]:text-gray-700 [&_strong]:font-extrabold [&_strong]:text-gray-900 [&_ul]:mb-6 [&_ul]:ml-6 [&_ul]:list-disc [&_ul]:text-base [&_ul]:text-gray-700 [&_ul_li]:mb-3 [&_a]:font-semibold [&_a]:text-blue-600 [&_a]:underline [&_a]:decoration-2 [&_a]:underline-offset-21e:T4e9c,<h2>企業情報</h2>
+<p><strong>会社名</strong>：株式会社 VLC セキュリティラボ<br>
+<strong>事業内容</strong>：AI をはじめとする最先端技術の活用、高度な知識を持ったホワイトハッカーによるインシデントレスポンス、侵入テスト／攻撃者対策の構築、セキュリティ製品提供と導入や運用を通して、企業のサイバーセキュリティ態勢の全体最適化を技術面から支援<br>
+<strong>従業員数</strong>：25 名（役員・派遣社員を含む／2025 年 9 月末時点）<br>
+<strong>所在地</strong>：東京都港区（本社）</p>
+<h2>ご利用いただいたサービス</h2>
+<p>セキュリティ人材ダイレクトリクルーティングを中心とした採用の自走支援</p>
+<p>主な内容</p>
+<p>・採用戦略/アセスメント<br>
+・求人票リデザイン<br>
+・スカウト支援と代行<br>
+・定例ミーティングによる全般支援</p>
+<h2>取材にご協力いただいた方</h2>
+<p>株式会社 VLC セキュリティラボ 代表取締役 CEO<br>
+中本 有哉様</p>
+<p>社長室 兼 プロダクトソリューション部 執行役員<br>
+本間 遼介様</p>
+<p>セキュリティ人材は慢性的な売り手市場です。株式会社 VLC セキュリティラボでも、現場が兼務で進めるスカウトは工数がかかりすぎ、成果が出ていませんでした。</p>
+<p>そこで VLC セキュリティラボにご導入いただいたのが、セコネのセキュリティ人材ダイレクトリクルーティング支援。現状の棚卸しと現場ヒアリングにより要件を言語化し、定例ミーティングで課題を都度修正。自走を前提とした仕組みづくりを進めています。その結果、スカウト開始からわずか 3 か月で 1 名の採用が決定し、開封・返信率などの数値も向上。中本有哉様と本間遼介様に、その変化と手応えを伺いました。</p>
+<h2>企業紹介</h2>
+<h3>検証から収束まで ── グループの総力で企業セキュリティを支える</h3>
+<h3>── まず、株式会社 VLC セキュリティラボの事業についてご紹介いただけますか。</h3>
+<p>株式会社 VLC セキュリティラボ 中本 有哉様（以下、中本）：当社は、旧バルクホールディングスからのリブランディングで発足した VLC セキュリティグループの一員です。</p>
+<p><strong>VLC セキュリティラボは、脆弱性診断・ペネトレーションテスト（侵入テスト）、フォレンジックなどを中心としつつ、サイバー攻撃を受けた際の初動から復旧までを伴走する収束支援やダークウェブ上の漏えい調査なども実施しています。</strong></p>
+<p>グループには、セキュリティのコンサルティングやトレーニングを担う専門会社もあり、各社が連携して企業のセキュリティを支える体制を敷いています。</p>
+<h2>兼務で会社を支える ── 制度づくりから実務、採用をも担当</h2>
+<h3>── 本間様の担当業務について教えてください。</h3>
+<p>本間：社長室では、社内の業務を推進するのに加え、採用、キャリア設計、評価制度、組織文化づくりといった会社の基盤づくりも担当しています。</p>
+<p>プロダクトソリューション部では、セキュリティコンサルティングや製品販売を担当し、幅広い役割を担っています。ペネトレーションテストや脆弱性診断の営業・案件管理を行うときもあれば、デジタル・フォレンジックやログ解析ではエンジニアとして動くこともあります。</p>
+<h3>── 採用体制は、どのようになっていますか。</h3>
+<p>本間：セコネにお願いする前は、ちょうど事業を広げるタイミングで人が足りず、採用に十分な時間を割けていない状況でした。<strong>採用や労務については、これまでもグループ内で連携しながら進めてきましたが、ちょうど体制が変わる時期でもあり、社内のリソースだけでは手が回りきらない部分も出てきました。</strong>そこで、<strong>専門的に相談できるパートナーとしてセコネに依頼しました。</strong></p>
+<h3>── 現在はどのように進めていますか。</h3>
+<p>本間：<strong>現在は体制を新たにグループ一丸となり、連携しながら進めています。</strong></p>
+<p>ただ、人事に全部お任せではなく、カジュアル面談やどの程度採用するかの見立ては中本と私で相談して決めています。<strong>専任の採用担当はいません。</strong>自分の時間でいうと採用に 3 割程度を当てていて、カジュアル面談と一次面接に出ています。</p>
+<h2>候補者が少ない ── 経験者は年収水準が高く、ポテンシャル採用は見極めが難しい</h2>
+<h3>── セコネ導入前、採用ではどのような課題がありましたか。</h3>
+<p>本間：事業を広げる局面で人手が足りませんでした。特にセキュリティエンジニアは候補者が市場に少ない状況が続いています。</p>
+<p><strong>経験者は年収の相場が高く、予算とのバランスも難しかったです。育成前提での採用も考えましたが、何をもってポテンシャルとみなすかが曖昧で、書類だけでは判断しづらいという悩みがありました。</strong></p>
+<h3>── 運用面では、どの部分がハードルになっていましたか。</h3>
+<p>本間：スカウト型採用（ダイレクトリクルーティング）は、現場責任者が候補者のリサーチやスカウト送信までを担う必要があり、やり方が定まらない暗中模索の状態でした。<strong>工数がかかりすぎるのに、開封や返信のコツがつかめず、「そもそもスカウトを打つ意味はあるのか」という議論すら社内で出ていました。</strong></p>
+<p><img src="/interview/vlcseclab/2.webp" alt="株式会社 VLC セキュリティラボ 本間 遼介様">{width=50}</p>
+<h2>セコネを選んだ理由 ── 自走まで見据えた提案</h2>
+<h3>── セコネに依頼した決め手は何でしたか。</h3>
+<p>本間：実は私自身が以前、セコネ代表の高田さんから転職のサポートを受けました。そのとき<strong>自分が受け取ったスカウトの件名や文面は「これは開けるだろうな」と思える内容で、非常に印象に残っています。</strong>ちょうどそのことを思い出し、スカウト改善のアドバイスを依頼できるのではと考えて相談しました。</p>
+<h3>── 中本様は、どの点を重視されましたか。</h3>
+<p>中本：やはりセコネの初回提案の第一声ですね。<strong>「当社が本当に欲しい人材をこれからも獲得できるように、自走していけるように組み立てていきます。その支援をしていきます」と。</strong>これは一般的な採用代行サービスではあまり聞かない提案だと感じました。<strong>加えて、セキュリティ業界の実務経験があるため、その観点で立ち上げを手伝っていただけるところに、強い好感を持ちました。</strong></p>
+<h2>スカウト経由で採用が決定 ── 運用も前進</h2>
+<h3>── 実際の成果や効果について教えてください。</h3>
+<p>本間：<strong>最も目に見えた成果は、スカウト経由で早速 1 名の採用が決まったことです。</strong>優秀な方で、<strong>自分たちだけで動いていたら採用に至らなかったかもしれません。</strong>そもそもスカウトの返信すら得られなかったかもしれません。</p>
+<h3>── 大きな成果ですね。中本様は、どのような変化を感じていますか。</h3>
+<p>中本：<strong>今回、業界大手で脆弱性診断とコンサルを経験した方が、スカウト経由で当社を選んでくれました。</strong></p>
+<p>当社はベンチャー規模で、立ち上げ期は未経験や他業種からの転職が中心でしたが、こうした方に選ばれるようになったのは大きな変化です。<strong>小規模な組織であっても魅力を感じて来ていただけるようになったと実感しています。</strong></p>
+<h3>── ほかに助かった点があれば教えてください。</h3>
+<p>本間：求人票のブラッシュアップも大きく進みました。おかげで、<strong>型が整い、その後は自分たちで作れるようになりました。運用面でも、人事の視点をもらい、書類選考や面談のポイント、適性検査の要否まで相談できる体制を整えられました。</strong></p>
+<h2>採用が決まった 3 つの打ち手 ── スカウト・求人票・運用基盤</h2>
+<h2>スカウトの見直し ── 経験者に届く文面に刷新</h2>
+<h3>── 導入前、スカウトはどのような状況でしたか。</h3>
+<p>本間：自分たちでスカウトの打ち方がわからない中、手探りであったため大きな負担となっていました。<strong>実際、1 通の作成に 1 時間かったこともあります。</strong></p>
+<h3>── セコネ導入後、どのように変わったのでしょうか。</h3>
+<p>本間：まず運用面です。<strong>いい人材を見つけたら、スカウトをすぐに送信できる体制になりました。</strong>本来であれば社内で専任を置くべきなのかもしれませんが、今の所はセコネに送信を依頼しています。<strong>これは負荷の軽減だけでなく、スカウトサイト登録当日の候補者にもすぐにアプローチできるようになり、対応の加速につながりました。これによる返信率や採用決定へのつながりでも改善を実感しています。</strong></p>
+<h3>── スカウトの書き方は、変わりましたか。</h3>
+<p>本間：はい。<strong>件名が他のスカウトとは大きく異なります。</strong>よくある「年収 ○○ 万円」「大手 ○○ 会社」といった定型ではなく、<strong>その人の経歴を読み込んでいると伝わる件名が冒頭に来ます。</strong>それが開封につながっているのだと思います。本文も、<strong>職務経歴から読み取れる事実に加えて、「その環境で働いていたらこういう閉塞感があるかもしれません」と一歩踏み込んだ気づきまで言及しています。セキュリティ業界の知見があるからこそ書ける内容だと感じました。</strong></p>
+<h3>── 実際の成果はいかがでしたか。</h3>
+<p>本間：<strong>先ほど触れたスカウト経由での 1 名決定に加えて、数値面でも手応えがありました。開封率はおよそ 20％から 80％に、返信率も少なくとも 2 倍以上に向上しました。返信をいただけた段階で、私の感覚では採用の 6〜7 割は勝負がついた状態に近い</strong>、という実感もありました。</p>
+<h2>求人票の整備 ── 強みが伝わる型をつくった</h2>
+<h3>── 導入前、求人票はどのような状況でしたか。</h3>
+<p>本間：<strong>「うちの会社のアピールポイントは何だろう」と悩んでいました。</strong>自分たちでは良い会社だと思っていますが、<strong>それを候補者にどう伝えるかが課題でした。例えば、</strong>単に「文化がいいです」といった抽象表現では伝わりにくいと感じていました。</p>
+<h3>── セコネ導入後、どのように見直しましたか。</h3>
+<p>本間：最初に現状の棚卸しをしてもらいました。<strong>並行して現場メンバーへの業務ヒアリングも丁寧に行っていただき、あたりまえとして見過ごしていた業務の実態まで言葉にできました。</strong>その結果、<strong>必要な人材像とその人に響く伝え方が整理され、求人票に書くべき要素が明確になりました。</strong></p>
+<p>あとは、「こういう働き方をしています」「こういうキャリアを歩んでいます」と伝える中で、当社の強みは"キャリアの幅と柔軟性"にあると気付くことができました。そこで、初回の求人票作成はセコネに全面的に依頼し、その後はアドバイスをもとに自分たちでブラッシュアップしました。</p>
+<h3>── 仕上がりの手応えや、導入後の変化はありましたか。</h3>
+<p>本間：<strong>初回にセコネが作成した求人票で得た知見を吸収し、それ以降は自社で作れるようになりました。</strong>定例ミーティングで相談を重ね、求人票と面談での伝え方もそろってきました。<strong>候補者目線が自然と根づいてきたのが大きいです。</strong></p>
+<h2>運用基盤の強化 ── 自走につながる学びが残る</h2>
+<h3>── 運用面では、どのような変化がありましたか。</h3>
+<p>本間：まず、<strong>相談できる場ができたことです。</strong>定例ミーティングで、その時々の課題に的確に回答してくれる。例えば、<strong>書類選考やカジュアル面談で何を聞くかといった基本的なテーマでも遠慮なく相談できました。結果として、採用全体への理解度や解像度が上がったと感じています。</strong></p>
+<h3>── 定例ミーティングでは、具体的にどのようなやり取りをしていたのですか。</h3>
+<p>本間：例えば、適性検査の実施可否の検討や、同業のセキュリティ会社における採用手法・年収相場といった市場情報の整理です。セキュリティ業界に通じたセコネの目線が、意思決定の精度を高めました。最終判断はもちろん弊社が実施するのですが、<strong>第三者の見立てを得られたことでフローの見直しに踏み切れました。</strong></p>
+<p><strong>カジュアル面談でも、各候補者・各状況に応じて質問事項が整理され、聞くべきポイントの幅が広がったのは実務上の大きな変化です。</strong></p>
+<h3>── 心強いですね。経営側の手応えはいかがでしょう。</h3>
+<p>中本：以前は私自身もカジュアル面談から役員面接まで出ていましたが、今はチームで回せるようになってきました。採用プロセスの整備が進み、<strong>私が出なくても会社の魅力が伝わり入社してくれる人が出てきたのは、本当にうれしい変化です。</strong></p>
+<p><img src="/interview/vlcseclab/3.webp" alt="株式会社 VLC セキュリティラボ 中本 有哉様">{width=50}</p>
+<h2>次の課題・展望 ── 面接官育成と採用広報の強化</h2>
+<h3>── 3 か月の伴走支援を経て、今後セコネに期待することは何ですか。</h3>
+<p>本間：まずはこれまでお願いしてきた支援の継続です。<strong>採用は本来、もう少し長いスパンで、スカウトを打ち続けたり、求人票を磨いたりと地道に積み上げるものだと考えています。</strong>3 か月でスカウト経由 1 名の決定は十分に大きい成果ですが、<strong>継続すれば、さらに成果が見込めると考えています。</strong></p>
+<h3>── 継続に加えて、次に強化したい点はどこでしょう。</h3>
+<p>本間：<strong>いま課題に感じているのは、面接官がどのように面接を進めるべきかという点です。</strong>面談・面接で「候補者からどう見えるか」を意識して進めること、押さえるべきポイントの整理――このあたりがまだ十分とは言えません。なので、面接全体のレベルアップをぜひサポートいただきたいと思っています。</p>
+<p><strong>あわせて採用広報の打ち出しも強化したいです。</strong>例えば、自社サイトに社員インタビューを掲載するなど、求職者に「うちはこういう魅力のある会社です」と伝える方法を整えたい。セコネと相談しながら、実行に移していきたいです。</p>
+<h3>── ちなみに、今回の採用成果は、当初の期待と比べてどうでしたか。</h3>
+<p>本間：正直、セコネならやってくれるだろうという期待はありました。1 ～ 2 名は決定に至るのでは、と（笑）。ただ、成果は人数だけではありません。<strong>私たちが大変な時期に採用面で伴走いただけたことまで含めて、総合的には期待以上だったと感じています。</strong></p>
+<h3>── 経営側の視点では、今後どの点に期待しますか。</h3>
+<p>中本：<strong>優秀な人材を見つけてスカウトを打つ――ここは社内のリソースだけでは回し切れないので、引き続き力を貸してほしいですね。3 か月で 1 名の決定まで進んだのは、実のところ想定以上でした。</strong>私たち自身の準備不足や人手不足、そしてセキュリティ人材の希少性を考えると、<strong>まずは整備と自走に向けたアドバイスだけでも価値があると見ていました。そのうえで、そこに決定まで乗せてくれたのはありがたかったです。</strong>次の 3 か月でさらに 1 ～ 2 名の決定につなげ、勢いを継続できればうれしいです。</p>
+<h2>採用に悩む企業へ ── 業界知見 × 自走支援が近道</h2>
+<h3>── 最後に、同じ課題を抱える企業へ、メッセージをお願いします。</h3>
+<p>本間：この業界はエンジニアが少なく、要件づくりも難しいので、抱え込むと袋小路に入りがちです。<strong>私たちはプロに相談して一気に道が開けた実感があります。</strong>セコネが掲げる「自走できるように」という姿勢も大事で、こちらの課題を整理し、効果的な打ち手を示してくれる。こうした姿勢を掲げる支援は多くないと感じます。<strong>コスト面でも、長い目で見て自社で回せるようになる支援は価値が高いので、悩んでいるなら、まず相談してみてください。</strong></p>
+<p>中本：セキュリティ人材の確保は、業界全体の大きな課題です。だからこそ、<strong>セキュリティの知識・知見を持ち、事業者側に寄り添って計画を立て、最終的に自走できる形まで伴走してくれる相手と組むことが近道だと感じています。</strong></p>
+<p><strong>私たちにとってセコネは、単なる採用コンサルタントではなく「セキュリティ人材採用戦略の参謀役」です。企業側に立って一緒に考えてくれる存在です。</strong>引き続きご支援をお願いしたいと思っていますし、この進め方は再現性のある有効なアプローチになるのではないでしょうか。</p>
+<p>ご協力いただいた株式会社 VLC セキュリティラボ<br>
+中本有哉様、本間遼介様、誠にありがとうございました。本記事が、採用に課題を抱える企業様の一助となれば幸いです。</p>
+<p><img src="/interview/vlcseclab/4.webp" alt="4"></p>
+<p>※本記事の内容は 2025 年 10 月 22 日時点の情報です。</p>
+13:["$","div",null,{"className":"pt-16 md:pt-20","children":[["$","section",null,{"className":"relative w-full overflow-hidden bg-gradient-to-r from-blue-600 to-sky-500 pb-10 pt-20 text-white","children":["$","div",null,{"className":"mx-auto max-w-4xl px-6 text-center","children":[["$","nav",null,{"className":"mb-6 text-sm text-gray-200","children":[["$","$L7",null,{"href":"/","className":"hover:underline","children":"ホーム"}],["$","span",null,{"className":"mx-2","children":"/"}],["$","$L7",null,{"href":"/interview","className":"hover:underline","children":"導入事例"}],["$","span",null,{"className":"mx-2","children":"/"}],["$","span",null,{"children":"株式会社VLCセキュリティラボ"}]]}],["$","h1",null,{"className":"mb-4 text-3xl font-extrabold leading-tight md:text-4xl lg:text-5xl","children":"3 か月で即戦力採用に成功 ──「スカウトに意味はあるのか？」現状を打開した採用戦略"}],["$","p",null,{"className":"mx-auto mb-6 max-w-4xl text-lg opacity-90 md:text-xl","children":"セキュリティ人材は慢性的な売り手市場で、スカウト型採用は工数がかかる割に成果が出にくいと言われています。本記事では、セコネのダイレクトリクルーティング支援を導入し、3か月で即戦力採用に成功した株式会社VLCセキュリティラボ様の事例をご紹介します。"}],["$","p",null,{"className":"text-sm text-gray-200","children":"2025年10月22日"}],["$","div",null,{"className":"relative mt-10 overflow-hidden bg-blue-100","children":[["$","$L6",null,{"src":"/interview/vlcseclab/1.webp","alt":"株式会社VLCセキュリティラボ","width":1024,"height":768,"className":"h-auto w-full shadow-xl"}],["$","div",null,{"className":"absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent"}],["$","div",null,{"className":"absolute bottom-0 bg-white/50 p-1 text-left","children":[["$","div","中本 有哉様",{"children":[["$","p",null,{"className":"text-xs font-bold text-gray-800 md:text-sm","children":["株式会社VLCセキュリティラボ"," ","代表取締役 CEO"]}],["$","p",null,{"className":"text-xs font-bold text-gray-800 md:text-sm","children":"中本 有哉様"}]]}],["$","div","本間 遼介様",{"children":[["$","p",null,{"className":"text-xs font-bold text-gray-800 md:text-sm","children":["株式会社VLCセキュリティラボ"," ","社長室 兼 プロダクトソリューション部 執行役員"]}],["$","p",null,{"className":"text-xs font-bold text-gray-800 md:text-sm","children":"本間 遼介様"}]]}]]}]]}]]}]}],["$","section",null,{"className":"bg-white px-4 py-12 md:px-16","children":["$","div",null,{"className":"mx-auto max-w-4xl","children":["$","article",null,{"className":"$1d","dangerouslySetInnerHTML":{"__html":"$1e"}}]}]}],"$L1f"]}]
+1f:["$","section",null,{"className":"bg-navy-950 px-5 py-16 md:px-8 md:py-20","children":["$","div",null,{"className":"mx-auto max-w-4xl text-center","children":[["$","h2",null,{"className":"text-2xl font-bold text-white md:text-3xl","children":"同じような課題をお持ちですか？"}],["$","p",null,{"className":"mt-4 text-gray-400","children":"まずは30分の無料相談からお気軽にどうぞ"}],["$","a",null,{"href":"https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform","target":"_blank","rel":"noopener noreferrer","className":"btn-primary mt-8 inline-flex","children":"無料相談を予約する"}]]}]}]
+19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:null
+20:I[622,[],"IconMark"]
+17:{"metadata":[["$","title","0",{"children":"株式会社VLCセキュリティラボ 導入事例｜セコネ"}],["$","meta","1",{"name":"description","content":"セキュリティ人材は慢性的な売り手市場で、スカウト型採用は工数がかかる割に成果が出にくいと言われています。本記事では、セコネのダイレクトリクルーティング支援を導入し、3か月で即戦力採用に成功した株式会社VLCセキュリティラボ様の事例をご紹介します。"}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"property":"og:title","content":"セコネ｜セキュリティ人材の採用を、業界経験者が変える"}],["$","meta","4",{"property":"og:description","content":"セキュリティ実務経験者による採用コンサルティング。スカウト返信率10%超の実績。"}],["$","meta","5",{"property":"og:url","content":"https://seconne.co.jp"}],["$","meta","6",{"property":"og:site_name","content":"セコネ"}],["$","meta","7",{"property":"og:locale","content":"ja_JP"}],["$","meta","8",{"property":"og:image","content":"https://seconne.co.jp/og-image.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"セコネ｜セキュリティ人材 採用コンサルティング"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"セコネ｜セキュリティ人材の採用を、業界経験者が変える"}],["$","meta","15",{"name":"twitter:description","content":"セキュリティ実務経験者による採用コンサルティング。スカウト返信率10%超の実績。"}],["$","meta","16",{"name":"twitter:image","content":"https://seconne.co.jp/og-image.png"}],["$","link","17",{"rel":"icon","href":"/seconne-hp-v2-preview/favicon.ico","type":"image/x-icon","sizes":"512x512"}],["$","$L20","18",{}]],"error":null,"digest":"$undefined"}
+1c:"$17:metadata"
