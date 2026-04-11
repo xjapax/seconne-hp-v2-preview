@@ -64,7 +64,7 @@ export function HeroSection() {
                 key={stat.label}
                 className="rounded-xl border border-navy-100 bg-white/80 px-6 py-6 backdrop-blur-sm"
               >
-                <p className="text-4xl font-bold text-navy-900 md:text-2xl lg:text-4xl xl:text-5xl">{stat.value}</p>
+                <p className={`font-bold text-navy-900 ${stat.value.length > 6 ? 'text-2xl md:text-xl lg:text-2xl xl:text-4xl' : 'text-4xl md:text-2xl lg:text-4xl xl:text-5xl'}`}>{stat.value}</p>
                 <p className="mt-2 text-base font-medium text-navy-900">{stat.label}</p>
                 <p className="mt-1 text-sm text-gray-500">{stat.sub}</p>
               </div>
