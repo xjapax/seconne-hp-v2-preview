@@ -58,13 +58,13 @@ export function HeroSection() {
 
         {/* Stats */}
         <FadeInSection className="mt-16 md:mt-20">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
             {stats.map((stat) => (
               <div
                 key={stat.label}
                 className="rounded-xl border border-navy-100 bg-white/80 px-6 py-6 backdrop-blur-sm"
               >
-                <p className="text-3xl font-bold text-navy-900 sm:text-[clamp(1.125rem,2.8vw,3rem)]">{stat.value}</p>
+                <p className="text-4xl font-bold text-navy-900 md:text-2xl lg:text-4xl xl:text-5xl">{stat.value}</p>
                 <p className="mt-2 text-base font-medium text-navy-900">{stat.label}</p>
                 <p className="mt-1 text-sm text-gray-500">{stat.sub}</p>
               </div>
