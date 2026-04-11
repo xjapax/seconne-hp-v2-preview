@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { FadeInSection } from './FadeInSection';
 
 const faqs = [
@@ -10,7 +10,7 @@ const faqs = [
   },
   {
     q: '契約期間はどのくらいですか？',
-    a: '最低契約期間は6ヶ月です。採用は短期で結果が出にくい領域のため、一定期間の継続支援が効果的です。初回3ヶ月のトライアルからスタートできるケースもあります。',
+    a: '最低契約期間は6ヶ月です。採用は短期で結果が出にくい領域のため、一定期間の継続支援が成果につながります。',
   },
   {
     q: '他の採用支援サービスとの違いは何ですか？',
@@ -20,29 +20,61 @@ const faqs = [
     q: 'セキュリティ以外の職種も対応可能ですか？',
     a: 'セキュリティ人材の採用支援を専門としていますが、IT人材全般の採用経験も豊富です。まずはご相談ください。',
   },
-  {
-    q: '料金体系を教えてください。',
-    a: '月額固定・成功報酬なしの料金体系です。課題やご予算に応じて最適なプランをご提案しますので、詳細は無料相談にてお伝えします。',
-  },
-  {
-    q: '途中解約は可能ですか？',
-    a: '最低契約期間（6ヶ月）満了後は、1ヶ月前通知で解約可能です。詳細は契約時にご説明します。',
-  },
-  {
-    q: '成果が出なかった場合はどうなりますか？',
-    a: '契約開始時に成果指標（KPI）を設定し、定例ミーティングで進捗を共有します。期待する成果に達しない場合は、プランの見直しや戦略の再設計を行います。',
-  },
 ];
 
 export function FAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openSet, setOpenSet] = useState<Set<number>>(new Set());
+
+  const allOpen = useMemo(() => faqs.every((_, i) => openSet.has(i)), [openSet]);
+
+  const toggleAll = () => {
+    if (allOpen) {
+      setOpenSet(new Set());
+    } else {
+      setOpenSet(new Set(faqs.map((_, i) => i)));
+    }
+  };
+
+  const toggleOne = (index: number) => {
+    setOpenSet((prev) => {
+      const next = new Set(prev);
+      if (next.has(index)) {
+        next.delete(index);
+      } else {
+        next.add(index);
+      }
+      return next;
+    });
+  };
 
   return (
     <section className="section-padding bg-white">
       <div className="container-narrow mx-auto">
         <FadeInSection>
           <p className="text-center text-sm font-semibold tracking-wider text-accent">FAQ</p>
-          <h2 className="section-title mt-2 text-center">よくあるご質問</h2>
+          <div className="mt-2 flex items-center justify-center gap-4">
+            <h2 className="section-title text-center">よくあるご質問</h2>
+            <button
+              onClick={toggleAll}
+              className="flex items-center gap-1 text-sm text-gray-400 transition-colors hover:text-gray-600"
+            >
+              {allOpen ? (
+                <>
+                  すべて閉じる
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+                  </svg>
+                </>
+              ) : (
+                <>
+                  すべて開く
+                  <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </>
+              )}
+            </button>
+          </div>
         </FadeInSection>
 
         <div className="mt-12 divide-y divide-gray-100">
@@ -50,12 +82,12 @@ export function FAQSection() {
             <FadeInSection key={i}>
               <div className="py-1">
                 <button
-                  onClick={() => setOpenIndex(openIndex === i ? null : i)}
+                  onClick={() => toggleOne(i)}
                   className="flex w-full items-center justify-between py-5 text-left"
                 >
                   <span className="pr-4 text-base font-semibold text-navy-900 md:text-lg">{faq.q}</span>
                   <svg
-                    className={`h-6 w-6 flex-shrink-0 text-gray-400 transition-transform ${openIndex === i ? 'rotate-180' : ''}`}
+                    className={`h-6 w-6 flex-shrink-0 text-gray-400 transition-transform ${openSet.has(i) ? 'rotate-180' : ''}`}
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -65,7 +97,7 @@ export function FAQSection() {
                 </button>
                 <div
                   className={`overflow-hidden transition-all duration-300 ${
-                    openIndex === i ? 'max-h-96 pb-5' : 'max-h-0'
+                    openSet.has(i) ? 'max-h-96 pb-5' : 'max-h-0'
                   }`}
                 >
                   <p className="text-base leading-relaxed text-gray-600">{faq.a}</p>

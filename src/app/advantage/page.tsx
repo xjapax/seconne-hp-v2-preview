@@ -366,9 +366,7 @@ export default function AdvantagePage() {
           {/* CTA */}
           <div className="mt-10 text-center">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="btn-primary inline-flex"
             >
               無料相談を予約する
@@ -384,9 +382,7 @@ export default function AdvantagePage() {
             セコネの強みを直接お話しします
           </h2>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="btn-primary mt-8 inline-flex"
           >
             無料相談を予約する

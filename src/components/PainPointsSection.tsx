@@ -2,30 +2,12 @@ import Image from 'next/image';
 import { FadeInSection } from './FadeInSection';
 
 const painPoints = [
-  {
-    text: 'エージェント経由では的確な候補者が集まらない',
-    detail: 'セキュリティの要件が正しく伝わらず、ミスマッチが続く',
-  },
-  {
-    text: 'スカウトを送っても反応がない',
-    detail: '母数1%の即戦力に刺さるメッセージが作れない',
-  },
-  {
-    text: '内定を出しても辞退されてしまう',
-    detail: '候補者の志向・心理を理解しないまま選考を進めている',
-  },
-  {
-    text: '外部に委託しても成果が出ない',
-    detail: 'セキュリティの専門知識がないまま大量送信しても効果は限定的',
-  },
-  {
-    text: '採用プロセスの何が問題か分からない',
-    detail: 'ボトルネックが可視化できず、改善の打ち手が見えない',
-  },
-  {
-    text: '採用のノウハウが社内に残らない',
-    detail: '外注先に任せきりで、契約終了後に採用力がリセットされる',
-  },
+  { text: 'エージェント経由では的確な候補者が集まらない' },
+  { text: 'スカウトを送っても反応がない' },
+  { text: '内定を出しても辞退されてしまう' },
+  { text: '外部に委託しても成果が出ない' },
+  { text: '採用プロセスの何が問題か分からない' },
+  { text: '採用のノウハウが社内に残らない' },
 ];
 
 export function PainPointsSection() {
@@ -35,6 +17,9 @@ export function PainPointsSection() {
         <FadeInSection>
           <p className="text-center text-sm font-semibold tracking-wider text-accent">CHALLENGES</p>
           <h2 className="section-title mt-2 text-center">こんなお悩みはありませんか？</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-gray-600">
+            セキュリティ人材の求人倍率は42.6倍（※ISC2調べ、2024年時点）。スカウト媒体上の即戦力はわずか1%。この市場で成果を出すには、業界を知り尽くしたプロの介入が必要です。
+          </p>
         </FadeInSection>
 
         <div className="mt-12 gap-10 md:flex">
@@ -55,7 +40,6 @@ export function PainPointsSection() {
                 <FadeInSection key={i}>
                   <div className="rounded-xl border border-gray-100 bg-gray-50 p-6 transition-shadow hover:shadow-md">
                     <p className="text-base font-bold text-navy-900">{item.text}</p>
-                    <p className="mt-2 text-sm leading-relaxed text-gray-500">{item.detail}</p>
                   </div>
                 </FadeInSection>
               ))}

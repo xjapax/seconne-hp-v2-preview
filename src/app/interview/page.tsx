@@ -32,12 +32,12 @@ export default async function InterviewListPage() {
                 className="group block overflow-hidden rounded-2xl border border-gray-100 transition-shadow hover:shadow-lg md:flex"
               >
                 {interview.topImage && (
-                  <div className="relative h-56 w-full flex-shrink-0 md:h-auto md:w-72">
+                  <div className="relative h-56 w-full flex-shrink-0 md:h-auto md:w-80">
                     <Image
                       src={interview.topImage}
                       alt={interview.company}
                       fill
-                      className="object-cover transition-transform group-hover:scale-105"
+                      className="object-cover object-center transition-transform group-hover:scale-105"
                     />
                   </div>
                 )}
@@ -80,9 +80,7 @@ export default async function InterviewListPage() {
           </h2>
           <p className="mt-4 text-gray-400">無料相談で詳しくお伝えします</p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="btn-primary mt-8 inline-flex"
           >
             無料相談を予約する

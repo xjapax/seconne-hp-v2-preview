@@ -10,9 +10,9 @@ export function FinalCTASection() {
           src="/company/AdobeStock_628589476.jpeg"
           alt=""
           fill
-          className="object-cover opacity-15"
+          className="object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-navy-950/80" />
+        <div className="absolute inset-0 bg-navy-950/60" />
       </div>
 
       <FadeInSection>
@@ -27,9 +27,7 @@ export function FinalCTASection() {
             貴社の状況をお聞きし、最適なアプローチをご提案します。
           </p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="btn-primary mt-8 inline-flex"
           >
             無料相談を予約する

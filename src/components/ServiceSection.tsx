@@ -83,18 +83,7 @@ export function ServiceSection() {
                 <h3 className="text-2xl font-bold text-navy-900">{plan.name}</h3>
                 <p className="mt-3 text-base text-gray-600">{plan.description}</p>
 
-                <div className="mt-6 flex-1">
-                  <ul className="space-y-3">
-                    {plan.features.map((feature) => (
-                      <li key={feature} className="flex items-start gap-2 text-base text-gray-700">
-                        <svg className="mt-1 h-5 w-5 flex-shrink-0 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                <div className="mt-6 flex-1" />
               </div>
             </FadeInSection>
           ))}
@@ -107,9 +96,7 @@ export function ServiceSection() {
               ※ 最低契約期間6ヶ月。プラン・料金の詳細は無料相談にてご説明します。
             </p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="btn-primary mt-6 inline-flex"
             >
               料金・プランの詳細を聞く

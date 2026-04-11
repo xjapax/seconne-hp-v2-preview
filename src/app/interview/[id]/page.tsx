@@ -40,7 +40,7 @@ export default async function InterviewDetailPage({ params }: Props) {
     : [];
 
   return (
-    <div className="pt-16 md:pt-20">
+    <div className="pt-12 md:pt-20">
       {/* Hero - blue gradient like v1 */}
       <section className="relative w-full overflow-hidden bg-gradient-to-r from-blue-600 to-sky-500 pb-10 pt-20 text-white">
         <div className="mx-auto max-w-4xl px-6 text-center">
@@ -71,9 +71,9 @@ export default async function InterviewDetailPage({ params }: Props) {
               <Image
                 src={interview.topImage}
                 alt={interview.company}
-                width={1024}
-                height={768}
-                className="h-auto w-full shadow-xl"
+                width={1200}
+                height={800}
+                className="h-auto w-full object-contain shadow-xl"
               />
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent" />
@@ -115,9 +115,7 @@ export default async function InterviewDetailPage({ params }: Props) {
           </h2>
           <p className="mt-4 text-gray-400">まずは30分の無料相談からお気軽にどうぞ</p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="btn-primary mt-8 inline-flex"
           >
             無料相談を予約する

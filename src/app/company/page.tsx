@@ -153,9 +153,7 @@ export default function CompanyPage() {
         <div className="container-narrow mx-auto text-center">
           <h2 className="text-2xl font-bold text-white md:text-3xl">お気軽にご相談ください</h2>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="btn-primary mt-8 inline-flex"
           >
             無料相談を予約する

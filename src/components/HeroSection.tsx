@@ -2,24 +2,24 @@ import Image from 'next/image';
 import { FadeInSection } from './FadeInSection';
 
 const stats = [
-  { value: '42.6倍', label: 'セキュリティ求人倍率', sub: 'IT全体の約4倍', source: 'ISC2 Cybersecurity Workforce Study 2024' },
-  { value: '約1%', label: 'スカウト媒体内の即戦力比率', sub: '登録者数百万人中、ターゲットは数百名', source: '' },
-  { value: '10%超', label: 'セコネのスカウト返信率', sub: '一般的なスカウト返信率は数%', source: 'セコネ実績（2024年度平均）' },
+  { value: '12.5%', label: 'セコネのスカウト返信率', sub: '一般的な返信率：1〜3%' },
+  { value: '100%', label: '導入企業が3ヶ月以内に内定承諾を獲得', sub: '※2025年 スタンダードプラン以上' },
+  { value: '600万〜1,200万', label: '承諾者年収のボリュームゾーン', sub: '第二新卒ではなく、即戦力をピンポイントで' },
 ];
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden pt-16 md:pt-20">
+    <section className="relative overflow-hidden pt-12 md:pt-20">
       {/* Background image - full width, light overlay */}
       <div className="absolute inset-0">
         <Image
           src="/top/AdobeStock_412635388.jpeg"
           alt=""
           fill
-          className="object-cover opacity-60"
+          className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-white/80 md:bg-gradient-to-r md:from-white/95 md:via-white/70 md:to-white/30" />
+        <div className="absolute inset-0 bg-white/70 md:bg-gradient-to-r md:from-white/85 md:via-white/50 md:to-white/15" />
       </div>
 
       <div className="container-wide relative mx-auto px-5 py-16 md:px-8 md:py-24 lg:py-32">
@@ -41,9 +41,7 @@ export function HeroSection() {
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="btn-primary text-center"
               >
                 無料相談を予約する
@@ -66,12 +64,9 @@ export function HeroSection() {
                 key={stat.label}
                 className="rounded-xl border border-navy-100 bg-white/80 px-6 py-6 backdrop-blur-sm"
               >
-                <p className="text-4xl font-bold text-navy-900 md:text-5xl">{stat.value}</p>
+                <p className="text-3xl font-bold text-navy-900 sm:text-[clamp(1.5rem,4vw,3rem)]">{stat.value}</p>
                 <p className="mt-2 text-base font-medium text-navy-900">{stat.label}</p>
                 <p className="mt-1 text-sm text-gray-500">{stat.sub}</p>
-                {stat.source && (
-                  <p className="mt-1 text-[10px] text-gray-400">※ {stat.source}</p>
-                )}
               </div>
             ))}
           </div>

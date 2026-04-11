@@ -21,9 +21,9 @@ export function Header() {
 
   return (
     <header className="fixed top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur-sm">
-      <div className="container-wide mx-auto flex h-16 items-center justify-between px-5 md:h-20 md:px-8">
-        {/* Logo */}
-        <Link href="/" className="flex-shrink-0">
+      <div className="container-wide mx-auto flex h-12 items-center justify-between px-5 md:h-20 md:px-8">
+        {/* Logo + Tagline */}
+        <Link href="/" className="flex flex-shrink-0 items-center gap-3">
           <Image
             src="/seconne-logo.svg"
             alt="セコネ"
@@ -31,6 +31,7 @@ export function Header() {
             height={36}
             className="h-8 w-auto md:h-9"
           />
+          <span className="hidden text-sm text-gray-400 sm:inline">法人向け 採用コンサルティング</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -46,9 +47,7 @@ export function Header() {
           ))}
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/contact"
             className="rounded-lg bg-cta px-6 py-3 text-base font-semibold text-white transition-colors hover:bg-cta-dark"
           >
             無料相談
@@ -103,9 +102,7 @@ export function Header() {
               ))}
             </div>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeLaskWE1NJaClZsN2A_0vGpDQvTrSrVGtxqhgUQYz84ayRPw/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/contact"
               className="mt-4 block w-full rounded-lg bg-cta py-3.5 text-center text-base font-semibold text-white"
             >
               無料相談を予約する

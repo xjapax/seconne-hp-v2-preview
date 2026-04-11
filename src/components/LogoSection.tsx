@@ -15,7 +15,7 @@ export function LogoSection() {
           <p className="mb-8 text-center text-sm font-medium tracking-wider text-gray-400">
             導入企業一例
           </p>
-          <div className="flex flex-col items-center justify-center gap-8 sm:flex-row sm:gap-16 md:gap-24">
+          <div className="flex flex-col flex-wrap items-center justify-center gap-8 [row-gap:1.5rem] sm:flex-row sm:gap-16 md:gap-24">
             {logos.map((logo) => (
               <Image
                 key={logo.alt}
