@@ -64,7 +64,7 @@ export function HeroSection() {
                 key={stat.label}
                 className="rounded-xl border border-navy-100 bg-white/80 px-6 py-6 backdrop-blur-sm"
               >
-                <p className="text-3xl font-bold text-navy-900 sm:text-[clamp(1.5rem,4vw,3rem)]">{stat.value}</p>
+                <p className="whitespace-nowrap text-3xl font-bold text-navy-900 sm:text-[clamp(1.25rem,3.5vw,3rem)]">{stat.value}</p>
                 <p className="mt-2 text-base font-medium text-navy-900">{stat.label}</p>
                 <p className="mt-1 text-sm text-gray-500">{stat.sub}</p>
               </div>
