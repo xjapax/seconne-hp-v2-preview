@@ -31,3 +31,9 @@ next-env.d.ts
 
 # Local Netlify folder
 .netlify
+
+# test & review documents
+HP_REVIEW_*.md
+HP_TEXT_REVIEW_*.md
+HP_V1_V2_DIFF.md
+test-screenshots/
