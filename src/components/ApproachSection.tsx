@@ -44,7 +44,7 @@ export function ApproachSection() {
                   <p className="mt-2 text-base leading-relaxed text-gray-300">
                     採用戦略の設計、スカウト文の作成、求人票の改善、
                     面接官研修、カジュアル面談の同席まで。
-                    「コンサルだけ」「代行だけ」ではなく、両方を一体で提供します。
+                    戦略設計だけでなく、実務オペレーション支援も含めて一貫して提供します。
                   </p>
                 </div>
 

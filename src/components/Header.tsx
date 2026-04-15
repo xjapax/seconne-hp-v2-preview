@@ -9,6 +9,7 @@ const navItems = [
   { label: 'セコネの強み', href: '/advantage' },
   { label: '導入事例', href: '/interview' },
   { label: '会社情報', href: '/company' },
+  { label: 'コラム', href: '/blog' },
 ];
 
 const externalLinks = [

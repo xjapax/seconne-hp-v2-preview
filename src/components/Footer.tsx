@@ -10,12 +10,17 @@ const footerNav = [
   { label: '利用規約', href: '/terms' },
 ];
 
-const externalLinks = [
-  { label: 'Zenn（技術記事）', href: 'https://zenn.dev/shotakada' },
-  { label: 'セコネキャリア（転職相談）', href: 'https://seconne-career.com/lp/' },
-  { label: 'Udemy（教育コンテンツ）', href: 'https://www.udemy.com/course/it-tenshoku/?referralCode=EE7103487C8B5D304C70' },
+const btobLinks = [
+  { label: 'コラム', href: '/blog' },
+  { label: 'Zenn', href: 'https://zenn.dev/shotakada' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/shotakada' },
+];
+
+const btocLinks = [
   { label: 'YouTube', href: 'https://www.youtube.com/@tenshokutakada' },
+  { label: 'note', href: 'https://note.com/tenshokutakada' },
   { label: 'X', href: 'https://x.com/tenshokutakada' },
+  { label: 'Udemy', href: 'https://www.udemy.com/course/it-tenshoku/?referralCode=EE7103487C8B5D304C70' },
 ];
 
 export function Footer() {
@@ -58,11 +63,42 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* External & Contact */}
+          {/* External Links with BtoB/BtoC subheadings */}
           <div>
-            <h3 className="mb-4 text-sm font-semibold text-white">関連リンク</h3>
+            {/* BtoB section */}
+            <h3 className="mb-4 text-sm font-semibold text-white">
+              採用企業・エンジニア向け
+            </h3>
             <ul className="mb-6 space-y-2">
-              {externalLinks.map((link) => (
+              {btobLinks.map((link) => (
+                <li key={link.href}>
+                  {link.href.startsWith('/') ? (
+                    <Link
+                      href={link.href}
+                      className="text-sm text-gray-400 transition-colors hover:text-white"
+                    >
+                      {link.label}
+                    </Link>
+                  ) : (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-400 transition-colors hover:text-white"
+                    >
+                      {link.label}
+                    </a>
+                  )}
+                </li>
+              ))}
+            </ul>
+
+            {/* BtoC section */}
+            <h3 className="mb-4 text-sm font-semibold text-white">
+              転職・キャリア相談
+            </h3>
+            <ul className="space-y-2">
+              {btocLinks.map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}

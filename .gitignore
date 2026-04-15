@@ -37,3 +37,9 @@ HP_REVIEW_*.md
 HP_TEXT_REVIEW_*.md
 HP_V1_V2_DIFF.md
 test-screenshots/
+
+# Claude作業指示書・ログ（ローカル限定）
+HP_*_20*.md
+BLOG_FIRST_POST_INSTRUCTIONS.md
+MICROCMS_SETUP.md
+SESSION_LOG_*.md

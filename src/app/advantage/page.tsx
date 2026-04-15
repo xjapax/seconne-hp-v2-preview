@@ -8,81 +8,60 @@ export const metadata: Metadata = {
 
 const comparisonData = [
   {
-    category: 'セキュリティ業界知識',
-    direct: '自社次第',
-    agent: '△',
-    rpo: '△',
-    seconne: '◎',
+    category: 'セキュリティ業界経験者による対応',
+    direct: '各社次第',
+    agent: '―',
+    rpo: '―',
+    seconne: '必須',
   },
   {
-    category: '候補者心理の理解',
-    direct: '自社次第',
-    agent: '○',
-    rpo: '△',
-    seconne: '◎',
-  },
-  {
-    category: 'スカウト手法',
-    direct: '自社で実施',
-    agent: '紹介のみ',
-    rpo: '量重視',
+    category: 'スカウト運用支援',
+    direct: '自社実施',
+    agent: '―',
+    rpo: '大量送信型',
     seconne: 'ピンポイント1to1',
   },
   {
     category: '採用戦略設計',
-    direct: '自社で実施',
-    agent: '—',
-    rpo: '○',
-    seconne: '◎（セキュリティ特化）',
+    direct: '自社実施',
+    agent: '―',
+    rpo: 'プラン次第',
+    seconne: 'セキュリティ特化',
   },
   {
-    category: 'カジュアル面談対応',
-    direct: '自社で実施',
-    agent: '—',
-    rpo: '代行のみ',
-    seconne: '同席・グリップまで',
+    category: 'カジュアル面談同席',
+    direct: '自社実施',
+    agent: '―',
+    rpo: 'プラン次第',
+    seconne: 'スタンダードプラン以上で実施',
   },
   {
-    category: '面接支援・研修',
-    direct: '—',
-    agent: '—',
-    rpo: '一部あり',
-    seconne: '◎',
-  },
-  {
-    category: 'ノウハウの蓄積',
-    direct: '—',
-    agent: '残りにくい',
-    rpo: '残りにくい',
-    seconne: '社内に蓄積',
-  },
-  {
-    category: '料金体系',
-    direct: '工数のみ',
-    agent: '成功報酬型',
-    rpo: '月額固定',
-    seconne: '月額固定',
+    category: '面接設計支援・面接官研修',
+    direct: '―',
+    agent: '一般的な面接練習あり',
+    rpo: 'プラン次第',
+    seconne: '人事・面接官向け研修あり',
   },
   {
     category: 'セキュリティ専門相談',
-    direct: '—',
-    agent: '—',
-    rpo: '—',
-    seconne: '◎（スポットコンサル）',
+    direct: '―',
+    agent: '―',
+    rpo: '―',
+    seconne: '常時受付',
   },
   {
     category: 'AI活用支援',
-    direct: '—',
-    agent: '—',
-    rpo: '—',
-    seconne: '◎',
+    direct: '―',
+    agent: '―',
+    rpo: '―',
+    seconne: '診断・研修・月次支援',
   },
   {
     category: '研修（単体受講）',
-    direct: '—',
-    agent: '—',
-    rpo: '—',
-    seconne: '◎',
+    direct: '―',
+    agent: '―',
+    rpo: '―',
+    seconne: 'コンサル契約なしで可',
   },
 ];
 
@@ -119,7 +98,7 @@ export default function AdvantagePage() {
               <p className="mt-4 text-base leading-relaxed text-gray-600 md:text-lg">
                 スカウト媒体の登録者数百万人中、
                 セキュリティ即戦力のターゲットはわずか数百名。
-                セキュリティ求人倍率は42.6倍（IT全体の約4倍）。
+                セキュリティ人材の不足数は前年比2倍のペースで拡大中。
               </p>
               <p className="mt-3 text-base leading-relaxed text-gray-600 md:text-lg">
                 この1%にアプローチするには、
@@ -187,6 +166,10 @@ export default function AdvantagePage() {
       <section className="section-padding bg-white">
         <div className="container-wide mx-auto">
           <h2 className="section-title text-center">セコネと他サービスの比較</h2>
+          <p className="mx-auto mt-4 max-w-3xl text-center text-base leading-relaxed text-gray-600">
+            ダイレクトリクルーティングを前提とした採用支援サービスの比較です。
+            人材紹介は候補者紹介を主とする別カテゴリのサービスであり、採用プロセス全体への伴走は対象外の項目が多くなります。
+          </p>
 
           <div className="mt-12 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse">
@@ -233,6 +216,9 @@ export default function AdvantagePage() {
                 ))}
               </tbody>
             </table>
+            <p className="mt-4 text-xs text-gray-500">
+              ※「一般的な人材紹介」「RPO」は業界の典型的なサービス形態を指します。実際のサービス内容は各社・プランによって異なります。
+            </p>
           </div>
         </div>
       </section>
@@ -277,7 +263,7 @@ export default function AdvantagePage() {
               <div className="mt-6">
                 <p className="text-sm font-semibold text-gray-400">相談の流れ</p>
                 <div className="mt-3 grid gap-3 sm:grid-cols-4">
-                  {['① ヒアリング（課題の整理・専門家の選定）', '② 専門家マッチング（領域に応じてアサイン）', '③ レポート納品 or オンライン相談', '④ フォローアップ（追加質問対応）'].map((step) => (
+                  {['① ヒアリング（課題の整理・専門家の選定）', '② 専門家アサイン（領域に応じて選定）', '③ レポート納品 or オンライン相談', '④ フォローアップ（追加質問対応）'].map((step) => (
                     <div key={step} className="rounded-lg bg-gray-50 p-3 text-sm text-gray-700">{step}</div>
                   ))}
                 </div>

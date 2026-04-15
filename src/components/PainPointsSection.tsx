@@ -18,7 +18,7 @@ export function PainPointsSection() {
           <p className="text-center text-sm font-semibold tracking-wider text-accent">CHALLENGES</p>
           <h2 className="section-title mt-2 text-center">こんなお悩みはありませんか？</h2>
           <p className="mx-auto mt-4 max-w-2xl text-center text-base leading-relaxed text-gray-600">
-            セキュリティ人材の求人倍率は42.6倍（※ISC2調べ、2024年時点）。スカウト媒体上の即戦力はわずか1%。この市場で成果を出すには、業界を知り尽くしたプロの介入が必要です。
+            セキュリティ人材の不足数は前年比2倍に拡大（※ISC2調べ、2023年時点）。スカウト媒体上の即戦力はわずか1%。この市場で成果を出すには、業界を知り尽くしたプロの介入が必要です。
           </p>
         </FadeInSection>
 

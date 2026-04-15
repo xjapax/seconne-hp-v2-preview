@@ -2,9 +2,24 @@ import Image from 'next/image';
 import { FadeInSection } from './FadeInSection';
 
 const logos = [
-  { src: '/top/sj_corporation.png', alt: 'S&J株式会社', height: 60 },
-  { src: '/top/vlc_security_lab.svg', alt: 'VLCセキュリティラボ', height: 56 },
-  { src: '/top/dentsu_soken_technology.png', alt: '電通総研テクノロジー', height: 60 },
+  {
+    src: '/top/sj_corporation.png',
+    alt: 'S&J株式会社',
+    height: 60,
+    className: 'h-8 w-auto sm:h-12 md:h-16',
+  },
+  {
+    src: '/top/vlc_security_lab.svg',
+    alt: 'VLCセキュリティラボ',
+    height: 56,
+    className: 'h-14 w-auto sm:h-20 md:h-28',
+  },
+  {
+    src: '/top/dentsu_soken_technology.png',
+    alt: '電通総研テクノロジー',
+    height: 60,
+    className: 'h-14 w-auto sm:h-20 md:h-28',
+  },
 ];
 
 export function LogoSection() {
@@ -23,7 +38,7 @@ export function LogoSection() {
                 alt={logo.alt}
                 width={320}
                 height={logo.height * 4}
-                className="h-14 w-auto sm:h-20 md:h-28"
+                className={logo.className}
               />
             ))}
           </div>

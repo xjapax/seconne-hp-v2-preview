@@ -58,7 +58,7 @@ export function ServiceSection() {
           <p className="text-center text-sm font-semibold tracking-wider text-accent">SERVICE</p>
           <h2 className="section-title mt-2 text-center">サービスプラン</h2>
           <p className="section-subtitle text-center">
-            月額固定。貴社の課題に合わせて最適なプランをご提案します。
+            月額ベースのパッケージプラン。貴社の課題に合わせて最適なプランをご提案します。
           </p>
           <p className="mt-2 text-center text-sm text-gray-500">
             料金の目安：月額60万円〜（税別）

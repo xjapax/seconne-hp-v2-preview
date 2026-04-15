@@ -40,6 +40,17 @@ function postProcessBoldTags(htmlContent: string): string {
   return htmlContent.replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>');
 }
 
+/** microCMSブログ用：Markdownテキスト → HTMLに変換 */
+export async function markdownToHtml(markdown: string): Promise<string> {
+  const fixed = fixBoldMarkdown(markdown);
+  const result = await remark()
+    .use(remarkGfm)
+    .use(remarkBreaks)
+    .use(html, { sanitize: false })
+    .process(fixed);
+  return postProcessBoldTags(result.toString());
+}
+
 export async function getInterviewData(id: string): Promise<InterviewData | null> {
   try {
     const fullPath = path.join(interviewsDirectory, `${id}.md`);

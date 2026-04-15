@@ -41,7 +41,7 @@ export default function CompanyPage() {
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-600">
             セキュリティ業界の採用課題を解決し、
             <br className="hidden sm:block" />
-            企業と人材の最適なマッチングを実現する。
+            企業と人材の双方にとってより良い出会いを支援する。
           </p>
         </div>
       </section>
