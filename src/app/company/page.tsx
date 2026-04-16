@@ -19,7 +19,7 @@ const companyInfo = [
 const career = [
   { period: '〜2017年', role: 'ソフトバンク株式会社', detail: 'セキュリティエンジニアとして脆弱性診断・SOC運用に従事' },
   { period: '〜2019年', role: '株式会社リクルートテクノロジーズ', detail: 'セキュリティコンサルタントとして社内セキュリティ強化を推進' },
-  { period: '〜2023年', role: '株式会社リーベル', detail: 'IT・セキュリティ特化の人材紹介コンサルタント。数百名のキャリア支援' },
+  { period: '〜2023年', role: '両面型転職エージェント', detail: 'IT・セキュリティ特化の人材紹介コンサルタント。数百名のキャリア支援' },
   { period: '2023年〜', role: '株式会社セコネ 設立', detail: 'セキュリティ人材採用に特化したコンサルティング会社を設立' },
 ];
 
@@ -57,6 +57,7 @@ export default function CompanyPage() {
                 width={600}
                 height={400}
                 className="rounded-2xl"
+                priority
               />
             </div>
             <div className="md:w-1/2">
@@ -93,7 +94,7 @@ export default function CompanyPage() {
           <div className="mt-12 rounded-2xl border border-gray-100 bg-white p-8 md:flex md:gap-10">
             <div className="mb-6 flex flex-shrink-0 justify-center md:mb-0">
               <div className="relative h-48 w-48 overflow-hidden rounded-2xl">
-                <Image src="/company/photo.png" alt="高田 祥" fill className="object-cover" />
+                <Image src="/company/photo.jpg" alt="高田 祥" fill className="object-cover" />
               </div>
             </div>
             <div className="flex-1">

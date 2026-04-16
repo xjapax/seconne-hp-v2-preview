@@ -38,6 +38,10 @@ HP_REVIEW_*.md
 HP_TEXT_REVIEW_*.md
 HP_V1_V2_DIFF.md
 test-screenshots/
+screenshots/
+
+# ローカル画像バックアップ
+archive/
 
 # Claude作業指示書・ログ（ローカル限定）
 HP_*_20*.md

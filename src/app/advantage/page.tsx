@@ -87,6 +87,7 @@ export default function AdvantagePage() {
                 width={600}
                 height={400}
                 className="rounded-2xl"
+                priority
               />
             </div>
             <div className="md:w-1/2">

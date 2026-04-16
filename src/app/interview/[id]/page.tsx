@@ -74,6 +74,7 @@ export default async function InterviewDetailPage({ params }: Props) {
                 width={1200}
                 height={800}
                 className="h-auto w-full object-contain shadow-xl"
+                priority
               />
               {/* Gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-blue-900/20 to-transparent" />

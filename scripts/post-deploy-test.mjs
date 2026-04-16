@@ -9,21 +9,13 @@
  *   1. 全ページ直接アクセス（200確認）
  *   2. 全ページの全リンク収集 → リンク先200確認
  *   3. meta title / description 確認
- *   4. レスポンシブスクリーンショット（PC / タブレット / スマホ）
+ *
+ * ※ レスポンシブ確認はNetlifyプレビュー（seconne-hp-v2-preview.netlify.app）をブラウザで直接確認する運用
  */
 
 import { chromium } from 'playwright';
-import fs from 'fs';
-import path from 'path';
 
 const BASE_URL = process.argv[2] || 'https://seconne.co.jp';
-const SCREENSHOT_DIR = path.join(process.cwd(), 'test-screenshots');
-
-const VIEWPORTS = [
-  { name: 'PC', width: 1920, height: 1080 },
-  { name: 'Tablet', width: 820, height: 1180 },
-  { name: 'Mobile', width: 375, height: 812 },
-];
 
 // --- Helpers ---
 function isInternal(href) {
@@ -156,52 +148,6 @@ async function testAllLinks(browser) {
   return { pagePass, pageFail, linkPass, linkFail, pages: results };
 }
 
-// --- Test 3: Responsive screenshots ---
-async function testScreenshots(browser, pages) {
-  console.log('========================================');
-  console.log('  TEST 2: レスポンシブスクリーンショット');
-  console.log('========================================\n');
-
-  if (fs.existsSync(SCREENSHOT_DIR)) {
-    fs.rmSync(SCREENSHOT_DIR, { recursive: true });
-  }
-  fs.mkdirSync(SCREENSHOT_DIR, { recursive: true });
-
-  const urls = pages.filter((p) => p.status === 200).map((p) => p.url);
-  let count = 0;
-
-  for (const vp of VIEWPORTS) {
-    const vpDir = path.join(SCREENSHOT_DIR, vp.name);
-    fs.mkdirSync(vpDir, { recursive: true });
-
-    const context = await browser.newContext({ viewport: { width: vp.width, height: vp.height } });
-    const page = await context.newPage();
-
-    for (const url of urls) {
-      try {
-        await page.goto(url, { waitUntil: 'networkidle', timeout: 15000 });
-        const pageName = new URL(url).pathname.replace(/\//g, '_').replace(/^_/, '') || 'top';
-        await page.screenshot({
-          path: path.join(vpDir, `${pageName}.png`),
-          fullPage: true,
-        });
-        count++;
-      } catch (err) {
-        console.log(`  ⚠ Screenshot failed: ${url} @ ${vp.name} (${err.message?.slice(0, 50)})`);
-      }
-    }
-
-    await context.close();
-  }
-
-  console.log(`  📸 ${count}枚のスクリーンショットを保存: ${SCREENSHOT_DIR}/\n`);
-  for (const vp of VIEWPORTS) {
-    const files = fs.readdirSync(path.join(SCREENSHOT_DIR, vp.name));
-    console.log(`  ${vp.name} (${vp.width}px): ${files.length}枚`);
-  }
-  console.log('');
-}
-
 // --- Main ---
 async function main() {
   console.log(`\n🔍 HP デプロイ後テスト: ${BASE_URL}\n`);
@@ -209,17 +155,14 @@ async function main() {
   const browser = await chromium.launch({ headless: true });
 
   const linkResult = await testAllLinks(browser);
-  await testScreenshots(browser, linkResult.pages);
 
   await browser.close();
 
-  // Summary
   console.log('========================================');
   console.log('  テスト結果サマリ');
   console.log('========================================');
   console.log(`  ページ: ${linkResult.pagePass} OK / ${linkResult.pageFail} NG`);
   console.log(`  リンク: ${linkResult.linkPass} OK / ${linkResult.linkFail} NG`);
-  console.log(`  スクリーンショット: ${SCREENSHOT_DIR}/`);
 
   const allOk = linkResult.pageFail === 0 && linkResult.linkFail === 0;
   console.log(`\n  ${allOk ? '✅ 全テストパス' : '❌ 失敗あり — 上記を確認してください'}\n`);

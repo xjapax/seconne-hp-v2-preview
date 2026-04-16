@@ -36,7 +36,7 @@ export function ProfileSection() {
               <div className="flex flex-col items-center bg-navy-50 p-8 md:w-1/3">
                 <div className="relative h-48 w-48 overflow-hidden rounded-2xl md:h-56 md:w-56">
                   <Image
-                    src="/company/photo.png"
+                    src="/company/photo.jpg"
                     alt="高田 祥"
                     fill
                     className="object-cover"
