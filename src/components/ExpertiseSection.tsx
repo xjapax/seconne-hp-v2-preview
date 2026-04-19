@@ -5,9 +5,9 @@ import { FadeInSection } from './FadeInSection';
 const cards = [
   {
     image: '/company/AdobeStock_214466664.jpeg',
-    title: 'セキュリティ スポットコンサルティング',
+    title: 'セキュリティコンサルティング',
     body: '必要な時だけ、現場を知る専門家に聞ける。代表が目利きした複数のスペシャリストから、ご相談に応じて最適な専門家をアサインします。',
-    anchor: '/advantage#spot-consulting',
+    anchor: '/consulting/',
   },
   {
     image: '/company/AdobeStock_625979046.jpeg',

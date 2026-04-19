@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'セコネの強み',
-  description: 'セコネの強み。セキュリティ採用コンサルティング、スポットコンサルティング、AI活用支援。',
+  description: 'セコネの強み。セキュリティ採用コンサルティング、セキュリティコンサルティング、AI活用支援。',
 };
 
 const comparisonData = [
@@ -236,40 +237,26 @@ export default function AdvantagePage() {
           </p>
 
           <div className="mt-12 space-y-8">
-            {/* スポットコンサル - 左画像 */}
+            {/* セキュリティコンサル - 左画像（専用LPへの誘導カード） */}
             <div id="spot-consulting" className="scroll-mt-24 overflow-hidden rounded-2xl border border-gray-100 bg-white md:flex">
               <div className="relative h-56 w-full flex-shrink-0 md:h-auto md:w-80">
-                <Image src="/company/AdobeStock_214466664.jpeg" alt="スポットコンサルティング" fill className="object-cover" />
+                <Image src="/company/AdobeStock_214466664.jpeg" alt="セキュリティコンサルティング" fill className="object-cover" />
               </div>
               <div className="p-8 md:p-10">
-              <h3 className="text-xl font-bold text-navy-900 md:text-2xl">セキュリティ スポットコンサルティング</h3>
-              <p className="mt-1 text-base text-accent">必要な時だけ、現場を知る専門家に聞ける</p>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
-                AI検索で出る情報は、もう誰でも手に入ります。
-                セコネがお届けするのは、ネットには載らない「今まさに現場にいる専門家の生の声」です。
-              </p>
-              <p className="mt-3 text-base leading-relaxed text-gray-600">
-                弊社がハブとなり、代表が直接目利きした領域ごとのスペシャリストを
-                複数コンサルタントとして抱えています。
-                ご相談内容に応じて最適な専門家をアサインします。
-              </p>
-              <div className="mt-6">
-                <p className="text-sm font-semibold text-gray-400">こんな場面で使われています</p>
-                <ul className="mt-3 space-y-2">
-                  <li className="flex items-start gap-2 text-base text-gray-700"><span className="mt-1 text-accent">&#8226;</span>他社のセキュリティ体制を知りたい（競合比較、CISO向け報告の根拠）</li>
-                  <li className="flex items-start gap-2 text-base text-gray-700"><span className="mt-1 text-accent">&#8226;</span>ベンダー提案を受けたが、第三者に妥当性を評価してほしい</li>
-                  <li className="flex items-start gap-2 text-base text-gray-700"><span className="mt-1 text-accent">&#8226;</span>ISMS/SOC2取得に向けて、何から手をつけるべきか相談したい</li>
-                </ul>
-              </div>
-              <div className="mt-6">
-                <p className="text-sm font-semibold text-gray-400">相談の流れ</p>
-                <div className="mt-3 grid gap-3 sm:grid-cols-4">
-                  {['① ヒアリング（課題の整理・専門家の選定）', '② 専門家アサイン（領域に応じて選定）', '③ レポート納品 or オンライン相談', '④ フォローアップ（追加質問対応）'].map((step) => (
-                    <div key={step} className="rounded-lg bg-gray-50 p-3 text-sm text-gray-700">{step}</div>
-                  ))}
-                </div>
-              </div>
-              <p className="mt-4 text-sm text-gray-400">対応形式：レポート納品 / オンライン相談 / 月次アドバイザリー</p>
+                <h3 className="text-xl font-bold text-navy-900 md:text-2xl">セキュリティコンサルティング</h3>
+                <p className="mt-1 text-base text-accent">必要な時だけ、現場を知る専門家に聞ける</p>
+                <p className="mt-4 text-base leading-relaxed text-gray-600">
+                  代表が17年のセキュリティ人材の転職支援や業界イベントで築いた独自ネットワークから、案件ごとに最適な専門家を個別招聘。ISMS/SOC2・脆弱性診断・SOC・規程整備など幅広くご相談いただけます。
+                </p>
+                <Link
+                  href="/consulting/"
+                  className="mt-6 inline-flex items-center gap-1 text-base font-semibold text-accent hover:underline"
+                >
+                  サービス詳細を見る
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </Link>
               </div>
             </div>
 
