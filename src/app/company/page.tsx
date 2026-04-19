@@ -17,10 +17,10 @@ const companyInfo = [
 ];
 
 const career = [
-  { period: '〜2017年', role: 'ソフトバンク株式会社', detail: 'セキュリティエンジニアとして脆弱性診断・SOC運用に従事' },
-  { period: '〜2019年', role: '株式会社リクルートテクノロジーズ', detail: 'セキュリティコンサルタントとして社内セキュリティ強化を推進' },
-  { period: '〜2023年', role: '両面型転職エージェント', detail: 'IT・セキュリティ特化の人材紹介コンサルタント。数百名のキャリア支援' },
-  { period: '2023年〜', role: '株式会社セコネ 設立', detail: 'セキュリティ人材採用に特化したコンサルティング会社を設立' },
+  { role: 'ソフトバンク株式会社', detail: 'セキュリティエンジニアとして脆弱性診断・SOC運用に従事' },
+  { role: '株式会社リクルートテクノロジーズ', detail: 'セキュリティコンサルタントとして社内セキュリティ強化を推進' },
+  { role: '両面型転職エージェント', detail: 'IT特化の転職エージェント。数千名のIT人材を支援' },
+  { role: '株式会社セコネ 設立', detail: 'セキュリティ人材採用に特化したコンサルティング会社を設立' },
 ];
 
 export default function CompanyPage() {
@@ -63,9 +63,14 @@ export default function CompanyPage() {
             <div className="md:w-1/2">
               <h2 className="section-title">セコネの名前の由来</h2>
               <p className="mt-4 text-sm leading-relaxed text-gray-600 md:text-base">
-                「セコネ」は「セキュリティのコネクション」を省略した造語です。
-                セキュリティ業界の企業と人材をつなぐ、信頼のコネクションでありたい。
-                そんな想いを込めて名付けました。
+                「Sec+Conne」「セキュリティ＆コネクション」
+              </p>
+              <ul className="mt-3 space-y-2 text-sm leading-relaxed text-gray-600 md:text-base">
+                <li><span className="font-semibold text-navy-900">Connection</span>：結びつき、輪を大切にしたいという思い</li>
+                <li><span className="font-semibold text-navy-900">Seconne</span>：フランス語で「2番」セキュリティは常に事業の裏側を支えるもの</li>
+              </ul>
+              <p className="mt-3 text-sm leading-relaxed text-gray-600 md:text-base">
+                というような思いから来ています。
               </p>
             </div>
           </div>
@@ -81,8 +86,11 @@ export default function CompanyPage() {
             エージェントにニーズを伝えても正しく理解されない。スカウトを送っても反応がない。その根本原因は、セキュリティの現場を知らないまま採用活動を行っていることにあります。
           </p>
           <p className="mx-auto mt-4 max-w-3xl text-sm leading-relaxed text-gray-600 md:text-base">
-            代表の高田は、セキュリティエンジニア → 人材紹介コンサルタントという異色のキャリアを歩んできました。
+            代表の高田は、セキュリティエンジニア → 転職エージェントという異色のキャリアを歩んできました。
             「セキュリティの現場を知る人間が、採用を変える」。その確信から、セコネを設立しました。
+          </p>
+          <p className="mx-auto mt-4 max-w-3xl text-sm leading-relaxed text-gray-600 md:text-base">
+            最後は自社で採用を回せるようになる。そこまでの伴走が、セコネの目指す支援です。
           </p>
         </div>
       </section>
@@ -106,12 +114,9 @@ export default function CompanyPage() {
 
               <div className="mt-6 space-y-3">
                 {career.map((item) => (
-                  <div key={item.period} className="flex gap-4">
-                    <span className="w-20 flex-shrink-0 text-xs text-gray-400">{item.period}</span>
-                    <div>
-                      <p className="text-sm font-medium text-navy-900">{item.role}</p>
-                      <p className="text-xs text-gray-500">{item.detail}</p>
-                    </div>
+                  <div key={item.role}>
+                    <p className="text-sm font-medium text-navy-900">{item.role}</p>
+                    <p className="text-xs text-gray-500">{item.detail}</p>
                   </div>
                 ))}
               </div>
