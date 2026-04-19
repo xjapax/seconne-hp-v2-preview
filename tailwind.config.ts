@@ -31,6 +31,11 @@ const config: Config = {
           dark: '#d4650a',
           light: '#f97316',
         },
+        coral: {
+          DEFAULT: '#ff6b47',
+          dark: '#e5573a',
+          light: '#ff8a6e',
+        },
       },
       fontFamily: {
         sans: [
